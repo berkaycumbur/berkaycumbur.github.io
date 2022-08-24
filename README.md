@@ -1,1 +1,0 @@
-https://berkaycumbur.github.io/
