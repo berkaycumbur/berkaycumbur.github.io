@@ -196,6 +196,12 @@ a:focus,
 }
 .about {
   background: url(../img/about.jpg) center center no-repeat;
+  width: 100%;
+  background-color: #e5e5e5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.3);
