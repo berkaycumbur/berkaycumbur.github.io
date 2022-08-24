@@ -187,22 +187,32 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
+  background-color: #e5e5e5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   background: url(../img/intro.jpg) center center no-repeat;
-  background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  animation: chbg 15s infinite alternate;
+  background-size:cover
 }
-.about {
-  background: url(../img/about.jpg) center center no-repeat;
-  width: 100%;
-  background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
+@keyframes chbg {
+  0% {
+    background:url(../img/intro.jpg);
+  background-size:cover
+  }
+  40% {
+    background:url(../img/about.jpg);
+  background-size:cover
+  }
+  80% {
+    background:url(../img/loop3.jpg);
+  background-size:cover
+  }
+  100% {
+    background:url(../img/loop4.jpg);
+  background-size:cover
+}}
 .intro .overlay {
   background: rgba(0, 0, 0, 0.3);
 }
